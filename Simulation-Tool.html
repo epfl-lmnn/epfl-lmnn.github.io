@@ -82,31 +82,31 @@
         </div>
       </div>
     </section>
-
+    <section class="u-align-center u-clearfix u-white u-section-2" id="time_cost">
       <div class="u-bottom-right-radius-20 u-container-style u-custom-color-1 u-group u-shape-round u-top-right-radius-20 u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="500">
         <div class="u-container-layout u-container-layout-1">
           <h5 class="u-text u-text-body-alt-color u-text-1">Knowledge saves power</h5>
         </div>
       </div>
 
-        <div class="row">
-          <div class="col-2">
-            <label for="boxS">Box size (in nanometre)</label>
-            <input id="boxS" type="number", value="10" step="10" onchange="updateChart()"><br>
-            <label for="simT">Simulation time (bead-steps)</label>
-            <input id="simT" type="number", value="1000" step="1000" onchange="updateChart()"><br>
-            <label for="simS">Speed of simulation (billion bead-step/day)</label>
-            <input id="simS" type="number", value="1000" step="1000" onchange="updateChart()"><br>
-            <label for="atomD">Atom density (/Nanometre^3)</label>
-            <input id="atomD" type="range", value="10", min="3", max="20" onchange="updateChart()">
-            <span id="atomDval"></span><br>
-            <button class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2">SUBMIT</button>
-          </div>
-          <div class="col">
-            <canvas id="myChart"></canvas>
-          </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="boxS">Box size (in nanometre)</label>
+          <input id="boxS" type="number", value="10" step="10" onchange="updateChart()"><br>
+          <label for="simT">Simulation time (bead-steps)</label>
+          <input id="simT" type="number", value="1000" step="1000" onchange="updateChart()"><br>
+          <label for="simS">Speed of simulation (billion bead-step/day)</label>
+          <input id="simS" type="number", value="1000" step="1000" onchange="updateChart()"><br>
+          <label for="atomD">Atom density (/Nanometre^3)</label>
+          <input id="atomD" type="range", value="10", min="3", max="20" onchange="updateChart()">
+          <span id="atomDval"></span><br>
+          <button class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2">SUBMIT</button>
         </div>
-
+        <div class="col">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </section>
 
 
 
