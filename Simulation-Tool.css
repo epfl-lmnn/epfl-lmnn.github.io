@@ -163,7 +163,7 @@
   background-position: 50% 50%;
   margin: -138px auto 0 calc(((100% - 1140px) / 2) + 387px);
 }
-
+/*
 .u-section-2 .u-layout-wrap-1 {
   margin-top: 95px;
   margin-bottom: 0;
@@ -409,176 +409,9 @@
   .u-section-2 .u-btn-2 {
     margin-left: calc(((100% - 340px) / 2));
   }
-} .u-section-3 {
-  min-height: 966px;
 }
 
-.u-section-3 .u-text-1 {
-  font-weight: 400;
-  margin: 20px calc(((100% - 1140px) / 2) + 627px) 0 calc(((100% - 1140px) / 2));
-}
-
-.u-section-3 .u-list-1 {
-  width: 1140px;
-  margin: 36px auto 60px;
-}
-
-.u-section-3 .u-repeater-1 {
-  grid-template-columns: repeat(2, calc(50% - 7.5px));
-  min-height: 653px;
-  grid-gap: 15px;
-}
-
-.u-section-3 .u-image-1 {
-  background-image: url("images/g071cf494ff759e2ed9459fe61cbdf45d5402cd68cae33edf07414e23de92ab6714fc78055e98a316e90dad23876c3b9bc89c8ad354bbaffa8539cc928432d82e_1280.png");
-}
-
-.u-section-3 .u-container-layout-1 {
-  padding: 0;
-}
-
-.u-section-3 .u-text-2 {
-  font-weight: 700;
-  margin: 7px auto 0 20px;
-}
-
-.u-section-3 .u-text-3 {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: none;
-  margin: 10px auto 0 20px;
-}
-
-.u-section-3 .u-text-4 {
-  margin: 0 397px 0 20px;
-}
-
-.u-section-3 .u-image-2 {
-  background-image: url("images/gecb456b35628e7d4fc40a915e6f42114322445330f4b17dd81afc6732d23e851af723961895e547311e69e761a52713446e25f96760bf47da6750d47ae2d0e28_1280.png");
-}
-
-.u-section-3 .u-container-layout-2 {
-  padding: 0;
-}
-
-.u-section-3 .u-text-5 {
-  font-size: 2.75rem;
-  font-weight: 700;
-  margin: 7px auto 0 20px;
-}
-
-.u-section-3 .u-text-6 {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: none;
-  margin: 10px auto 0 20px;
-}
-
-.u-section-3 .u-text-7 {
-  margin: 0 397px 0 20px;
-}
-
-.u-section-3 .u-image-3 {
-  background-image: url("images/geba7149bde0ea496b00dd91102e6401e4e536cec0f30ca3635504b31a7efa11ff0f5b8d2f2b11dd5de6e07ba4e479f9e1ad4da6c888c0dd3ca9959ddd8514c50_1280.png");
-}
-
-.u-section-3 .u-container-layout-3 {
-  padding: 0;
-}
-
-.u-section-3 .u-text-8 {
-  font-size: 2.75rem;
-  font-weight: 700;
-  margin: 7px auto 0 20px;
-}
-
-.u-section-3 .u-text-9 {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: none;
-  margin: 10px auto 0 20px;
-}
-
-.u-section-3 .u-text-10 {
-  margin: 0 397px 0 20px;
-}
-
-.u-section-3 .u-image-4 {
-  background-image: url("images/gf948a16894c4075d5db875d77beb1f04272e583af04e8524ee69937694b4ea8e6760da65fbaf34103848112f09192fba636a7c94c000f57aff73c2f4abc62707_1280.jpg");
-}
-
-.u-section-3 .u-container-layout-4 {
-  padding: 0;
-}
-
-.u-section-3 .u-text-11 {
-  font-size: 2.75rem;
-  font-weight: 700;
-  margin: 7px auto 0 20px;
-}
-
-.u-section-3 .u-text-12 {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: none;
-  margin: 10px auto 0 20px;
-}
-
-.u-section-3 .u-text-13 {
-  margin: 0 397px 0 20px;
-}
-
-@media (max-width: 1199px) {
-   .u-section-3 {
-    min-height: 938px;
-  }
-
-  .u-section-3 .u-text-1 {
-    margin-right: calc(((100% - 940px) / 2) + 427px);
-    margin-left: calc(((100% - 940px) / 2));
-  }
-
-  .u-section-3 .u-list-1 {
-    width: 940px;
-  }
-
-  .u-section-3 .u-repeater-1 {
-    min-height: 654px;
-  }
-
-  .u-section-3 .u-text-4 {
-    margin-right: 197px;
-  }
-
-  .u-section-3 .u-text-5 {
-    font-size: 3rem;
-  }
-
-  .u-section-3 .u-text-7 {
-    margin-right: 197px;
-  }
-
-  .u-section-3 .u-text-8 {
-    font-size: 3rem;
-  }
-
-  .u-section-3 .u-text-10 {
-    margin-right: 197px;
-  }
-
-  .u-section-3 .u-text-11 {
-    font-size: 3rem;
-  }
-
-  .u-section-3 .u-text-13 {
-    margin-right: 197px;
-  }
-}
-
+/*
 @media (max-width: 991px) {
    .u-section-3 {
     min-height: 966px;
@@ -628,7 +461,7 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 1302px;
+    min-height: 1000px;
   }
 
   .u-section-3 .u-text-1 {
@@ -642,7 +475,8 @@
 
   .u-section-3 .u-repeater-1 {
     min-height: 1041px;
-  }} .u-section-4 {
+  }} */
+   .u-section-4 {
     min-height: 256px;
   }
   
@@ -758,7 +592,25 @@
       width: calc(((100% - 340px) / 2) + 340px);
       margin-right: 0;
     }
-  } .u-section-5 {
+  } 
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: rgb(16, 107, 218);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  .u-section-5 {
     background-image: linear-gradient(45deg, #f3f5f8, #f3fafe);
   }
   
