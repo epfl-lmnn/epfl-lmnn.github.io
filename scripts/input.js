@@ -11,7 +11,7 @@ var simS = document.getElementById('simS');
 var atomD = document.getElementById('atomD');
 var ctx = document.getElementById('myChart').getContext('2d');
 var cnt = 0;
-var cost=1000;
+
 const data = {
     labels: ['0'],
     datasets: [{
@@ -57,10 +57,16 @@ function updateChart() {
     myChart.data.labels.push(cnt);
     myChart.update();
 }
-console.log(cost)
+let treeArea = 100;
+let lifeTime = 50;
+let consume = 1;
+document.querySelector(".area").innerText=treeArea;
+document.querySelector(".time").innerText=lifeTime;
+document.querySelector(".electri").innerText=consume;
+
 const threshold=500;
 const energy=400;
-if (cost<threshold) {
+if (energy<threshold) {
     var treeAni = document.getElementById("tree");
     var img2 = document.createElement("img");
     img2.src = "scripts/fulltree.gif";
