@@ -93,15 +93,15 @@
         <div class="col-2">
           <br>
           <label for="boxS">Box size (in nanometre)</label>
-          <input id="boxS" type="number", value="10" step="10" onchange="updateChart()"><br><br>
+          <input id="boxS" type="number" value="10" step="10" min="10" onchange="updateChart()"><br><br>
           <label for="simT">Simulation time (bead-steps)</label>
-          <input id="simT" type="number", value="1000" step="1000" onchange="updateChart()"><br><br>
+          <input id="simT" type="number" value="1000" step="1000" min="1000" onchange="updateChart()"><br><br>
           <label for="simS">Speed of simulation (billion bead-step/day)</label>
-          <input id="simS" type="number", value="1000" step="1000" onchange="updateChart()"><br><br>
+          <input id="simS" type="number" value="1000" step="1000" min="1000" onchange="updateChart()"><br><br>
           <label for="atomD">Atom density (/Nanometre^3)</label>
-          <input id="atomD" type="range", value="10", min="3", max="20" onchange="updateChart()">
+          <input id="atomD" type="range" value="10" min="3" max="20" onchange="updateChart()">
           <span id="atomDval"></span><br><br>
-          <button class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2">
+          <button id="submit" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2">
             <a class="u-button-style u-nav-link u-text-custom-color-2" href="#animation">SUBMIT</a></button>
         </div>
         <div class="col">
@@ -109,11 +109,12 @@
         </div>
       </div>
     </section>
+  <section class="u-align-center u-clearfix u-white u-section-2" id="cost_animation">
 
 
 
 
-
+    <div class="animation">
         <h1 id="animation">This simulation costs</h1>
         <div class="trees">
           <div id="tree" ></div>
@@ -136,6 +137,8 @@
           <div class="discription3">Year</div>
         </div>
         <script src="scripts/input.js" defer></script>
+    </div>
+  </section>
 
 
   <section class="u-align-center u-clearfix u-section-4" id="sec-db78">
@@ -159,8 +162,8 @@
               <div class="u-container-style u-layout-cell u-size-20 u-white u-layout-cell-1">
                 <div class="u-border-2 u-border-custom-color-2 u-container-layout u-valign-top u-container-layout-1">
                   <h4 class="u-align-center u-text u-text-custom-color-5 u-text-1">Smaller Box Size</h4>
-                  <a href="#" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-1">CLICK TO KNOW MORE</a>
-                </div>
+                  <a href="#" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-3">CLICK TO KNOW MORE</a>
+                   </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-20 u-white u-layout-cell-2">
                 <div class="u-border-2 u-border-custom-color-2 u-container-layout u-valign-top u-container-layout-2">
@@ -185,7 +188,7 @@
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-text u-text-default u-text-1">Contact</h2>
             <p class="u-text u-text-2">Are you interested in this topic and want to understand more deeply the impact of the different parameters ? Professor Julian Shillcock will be happy to answer your questions !</p>
-            <a href="" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"> julian.shillcock@epfl.ch</a>
+            <a href="mailto: julian.shillcock@epfl.ch" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"> julian.shillcock@epfl.ch</a>
           </div>
         </div>
       </div>
@@ -196,11 +199,11 @@
         <a href="https://forms.gle/aDcBXu4edhfVJ6ey6" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-14 u-text-custom-color-2 u-btn-1" target="_blank">LET'S TEST MY KNOWLEDGE !</a>
       </div>
     </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-d975"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">This website was developed for the SHS course : How People Learn</p>
-      </div></footer>
+
+
+  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-d975"><div class="u-clearfix u-sheet u-sheet-1">
+      <p class="u-small-text u-text u-text-variant u-text-1">This website was developed for the SHS course : How People Learn</p>
+  </div></footer>
 
   </body>
 </html>
