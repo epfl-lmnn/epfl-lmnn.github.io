@@ -482,8 +482,8 @@
   }} */
    .u-section-4 {
      min-height: 256px;
-     position: relative;
-     top: -900px;
+
+
   }
   
   .u-section-4 .u-group-1 {
@@ -622,8 +622,8 @@
   }
   .u-section-5 {
     background-image: linear-gradient(45deg, #f3f5f8, #f3fafe);
-    position: relative;
-    top: -900px;
+
+
   }
   
   .u-section-5 .u-sheet-1 {
@@ -812,10 +812,7 @@
       padding-right: 117px;
     }
   }
-   .u-section-6{
-     position: relative;
-     top: -800px;
-   }
+
   .u-section-6 .u-sheet-1 {
     min-height: 282px;
   }
@@ -895,8 +892,7 @@
     }
   } .u-section-7 {
     background-image: none;
-  position: relative;
-  top: -700px;
+
   }
   
   .u-section-7 .u-sheet-1 {
@@ -945,144 +941,141 @@
 .animation{
   position: relative;
   top: 0px;
-  left: -550px;
+  height:400px;
 
 }
 
- h1{
+h1{
 
-   color: black;
-   /*font-family: 'Open Sans', sans-serif;*/
-   white-space: normal;
-   font-size: xx-large;
-   position: relative;
-   bottom: 20px;
-   left: 580px;
- }
- h2{
-   color: #f81b47;
-   position: fixed;
-   bottom: 50px;
-   left:0px
- }
+  color: black;
+  /*font-family: 'Open Sans', sans-serif;*/
+  white-space: normal;
+  font-size: xx-large;
+  position: relative;
 
- .tree{
-   position: relative;
-   bottom: 0px;
-   left:20px
- }
- .people{
-   position: relative;
-   bottom:20px;
-   left:50px
- }
- .house{
-   position: relative;
-   bottom:40px;
-   left:50px
- }
- .title1{
-   font-size: x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: black;
-   position: relative;
-   left: 80px;
-   bottom:30px;
- }
- .title2{
-   font-size: x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: black;
-   position: relative;
-   left: 550px;
-   bottom:430px;
- }
- .title3{
-   font-size: x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: black;
-   position: relative;
-   left: 1000px;
-   bottom:780px;
- }
- .title32{
-   font-size: x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: black;
-   position: relative;
-   left: 950px;
-   bottom:780px;
- }
+  left: 50px;
+}
 
- .area{
-   font-size:xxx-large;
-   /* font-family: 'Roboto Serif', serif;*/
-   color: blue;
-   position: relative;
-   left: 50px;
-   bottom:50px;
- }
- .time{
-   font-size:xxx-large;
-   /*font-family: 'Roboto Serif', serif;*/
-   color:blue;
-   position: relative;
-   left: 550px;
-   bottom:430px;
- }
- .electri{
-   font-size:xxx-large;
-   /*font-family: 'Roboto Serif', serif;*/
-   color: blue;
-   position: relative;
-   left: 1050px;
-   bottom:810px;
- }
- .discription1{
-   font-size:x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: deepskyblue;
-   position: relative;
-   left: 180px;
-   bottom:100px;
- }
- .discription2{
-   font-size:x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color:deepskyblue;
-   position: relative;
-   left: 630px;
-   bottom:480px;
- }
- .discription3{
-   font-size:x-large;
-   /*font-family: 'Open Sans', sans-serif;*/
-   color: deepskyblue;
-   position: relative;
-   left: 1100px;
-   bottom:860px;
- }
- #tree{
-   position: relative;
-   left: 60px;
-   bottom:80px;
- }
- #life{
-   position: relative;
-   left: 550px;
-   bottom: 500px;
- }
- #household{
-   position: relative;
-   left: 1000px;
-   bottom:850px;
- }
- #household2{
-   position: relative;
-   left: 1000px;
-   bottom:1280px;
- }
+.tree{
+  position: relative;
 
+  left:20px
+}
+.people{
+  position: relative;
+  left:20px;
 
+}
+.house{
+  position: relative;
 
+  left:50px
+}
+.title1{
+  font-size: x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: black;
+  position: relative;
+  left: 0px;
+  bottom: 380px;
 
+}
+.title2{
+  font-size: x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: black;
+  position: relative;
+  left: 80px;
+  bottom: 260px;
+
+}
+.title3{
+  font-size: x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: black;
+  position: relative;
+  left: 200px;
+  bottom: 220px;
+
+}
+.title32{
+  font-size: x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: black;
+  position: relative;
+  left: 130px;
+  bottom: 220px;
+
+}
+
+.area{
+  font-size:xxx-large;
+  /* font-family: 'Roboto Serif', serif;*/
+  color: blue;
+  position: relative;
+  left: -140px;
+  bottom: 400px;
+
+}
+.time{
+  font-size:xxx-large;
+  /*font-family: 'Roboto Serif', serif;*/
+  color:blue;
+  position: relative;
+  left: 0px;
+  bottom: 270px;
+
+}
+.electri{
+  font-size:xxx-large;
+  /*font-family: 'Roboto Serif', serif;*/
+  color: blue;
+  position: relative;
+  left: 250px;
+  bottom: 270px;
+
+}
+.discription1{
+  font-size:x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: deepskyblue;
+  position: relative;
+  left: 0px;
+  bottom: 450px;
+
+}
+.discription2{
+  font-size:x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color:deepskyblue;
+  position: relative;
+  left: 70px;
+  bottom: 320px;
+
+}
+.discription3{
+  font-size:x-large;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: deepskyblue;
+  position: relative;
+  left: 300px;
+  bottom: 320px;
+
+}
+#tree{
+  position: relative;
+  left: 60px;
+
+}
+#life{
+  position: relative;
+  left: 100px;
+  bottom:-100px;
+
+}
+#household{
+  position: relative;
+  left: 180px;
+  bottom:-120px;
+
+}
