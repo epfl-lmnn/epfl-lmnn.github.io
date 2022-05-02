@@ -65,7 +65,7 @@ document.querySelector(".time").innerText=lifeTime;
 document.querySelector(".electri").innerText=consume;
 
 const threshold=500;
-const energy=400;
+const energy=600;
 if (energy<threshold) {
     var treeAni = document.getElementById("tree");
     var img2 = document.createElement("img");

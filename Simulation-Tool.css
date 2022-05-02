@@ -147,6 +147,7 @@
   padding-right: 0;
 }
 
+
 .u-section-2 .u-text-1 {
   font-weight: 400;
   font-size: 1.875rem;
@@ -413,12 +414,13 @@
   }
 }
 
-/*
+*/
 @media (max-width: 991px) {
-   .u-section-3 {
-    min-height: 966px;
+  .u-section-3 {
+    min-height: 300px;
   }
-
+}
+/*
   .u-section-3 .u-text-1 {
     margin-right: calc(((100% - 720px) / 2) + 207px);
     margin-left: calc(((100% - 720px) / 2));
@@ -943,8 +945,10 @@
 .animation{
   position: relative;
   top: 0px;
+  left: -550px;
 
 }
+
  h1{
 
    color: black;
@@ -953,7 +957,7 @@
    font-size: xx-large;
    position: relative;
    bottom: 20px;
-   left: 530px;
+   left: 580px;
  }
  h2{
    color: #f81b47;
@@ -965,7 +969,7 @@
  .tree{
    position: relative;
    bottom: 0px;
-   left:30px
+   left:20px
  }
  .people{
    position: relative;
@@ -1006,7 +1010,7 @@
    /*font-family: 'Open Sans', sans-serif;*/
    color: black;
    position: relative;
-   left: 1000px;
+   left: 950px;
    bottom:780px;
  }
 
@@ -1015,7 +1019,7 @@
    /* font-family: 'Roboto Serif', serif;*/
    color: blue;
    position: relative;
-   left: 80px;
+   left: 50px;
    bottom:50px;
  }
  .time{
@@ -1031,7 +1035,7 @@
    /*font-family: 'Roboto Serif', serif;*/
    color: blue;
    position: relative;
-   left: 1200px;
+   left: 1050px;
    bottom:810px;
  }
  .discription1{
@@ -1055,12 +1059,12 @@
    /*font-family: 'Open Sans', sans-serif;*/
    color: deepskyblue;
    position: relative;
-   left: 1230px;
+   left: 1100px;
    bottom:860px;
  }
  #tree{
    position: relative;
-   left: 0px;
+   left: 60px;
    bottom:80px;
  }
  #life{
