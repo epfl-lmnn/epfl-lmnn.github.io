@@ -81,7 +81,7 @@ document.querySelector(".electri").innerText = consume;
     img6.style.width = "350px";
     houseAni.appendChild(img6);
 
-
+const threshold=1000;
 const BTN = document.getElementById('submit');
 
 BTN.addEventListener('click', () => {
@@ -93,35 +93,29 @@ BTN.addEventListener('click', () => {
         document.querySelector(".time").innerText = lifeTime;
         document.querySelector(".electri").innerText = consume;
         if (treeArea < threshold) {
-            treeAni = document.getElementById("tree");
-            img2 = document.createElement("img");
+
             img2.src = "scripts/fulltree.gif";
             treeAni.appendChild(img2);
-            lifeAni = document.getElementById("life");
-            img4 = document.createElement("img");
+
             img4.src = "scripts/playing.gif";
             img4.style.width = "300px";
             lifeAni.appendChild(img4);
-            houseAni = document.getElementById("household");
-            img6 = document.createElement("img");
+
             img6.src = "scripts/fewhouse.gif";
             img6.style.width = "350px";
             houseAni.appendChild(img6);
         } else {
-            treeAni = document.getElementById("tree");
-            img1 = document.createElement("img");
-            img1.src = "scripts/middletree.gif";
-            treeAni.appendChild(img1);
-            lifeAni = document.getElementById("life");
-            img3 = document.createElement("img");
-            img3.src = "scripts/working.gif";
-            img3.style.width = "300px";
-            lifeAni.appendChild(img3);
-            houseAni = document.getElementById("household");
-            img5 = document.createElement("img");
-            img5.src = "scripts/manyhouses.gif";
-            img5.style.width = "350px";
-            houseAni.appendChild(img5);
+
+            img2.src = "scripts/middletree.gif";
+            treeAni.appendChild(img2);
+
+            img4.src = "scripts/working.gif";
+            img4.style.width = "300px";
+            lifeAni.appendChild(img4);
+
+            img6.src = "scripts/manyhouses.gif";
+            img6.style.width = "350px";
+            houseAni.appendChild(img6);
         }
 
 });
