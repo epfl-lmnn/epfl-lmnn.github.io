@@ -87,7 +87,7 @@ const BTN = document.getElementById('submit');
 BTN.addEventListener('click', () => {
 
         treeArea = updateChart() / 2000;
-        lifeTime = updateChart() / 1000;
+        lifeTime = updateChart() / 24;
         consume = updateChart() / 100000;
         document.querySelector(".area").innerText = treeArea;
         document.querySelector(".time").innerText = lifeTime;
