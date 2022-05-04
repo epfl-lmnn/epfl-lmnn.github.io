@@ -1040,7 +1040,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: deepskyblue;
   position: relative;
-  left: 0px;
+  left: 50px;
   bottom: 450px;
 
 }
@@ -1049,7 +1049,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color:deepskyblue;
   position: relative;
-  left: 70px;
+  left: 120px;
   bottom: 320px;
 
 }
@@ -1058,7 +1058,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: deepskyblue;
   position: relative;
-  left: 300px;
+  left: 350px;
   bottom: 320px;
 
 }

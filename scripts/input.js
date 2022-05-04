@@ -81,14 +81,14 @@ document.querySelector(".electri").innerText = consume;
     img6.style.width = "350px";
     houseAni.appendChild(img6);
 
-const threshold=1000;
+const threshold=5;
 const BTN = document.getElementById('submit');
 
 BTN.addEventListener('click', () => {
-
-        treeArea = updateChart() / 2000;
-        lifeTime = updateChart() / 24;
-        consume = updateChart() / 100000;
+        
+        treeArea = (updateChart() *0.025 * 24) / 2000;
+        lifeTime = treeArea *2000/ 24;
+        consume =treeArea/100;
         document.querySelector(".area").innerText = treeArea;
         document.querySelector(".time").innerText = lifeTime;
         document.querySelector(".electri").innerText = consume;
