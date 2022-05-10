@@ -89,7 +89,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="padding: 2% 0 5% 3%;">
         <div class="col-2">
           <br>
           <label for="boxS">Box size (in nanometre)</label>
@@ -97,33 +97,36 @@
           <label for="simT">Simulation time (bead-steps)</label>
           <input id="simT" type="number" value="1000" step="1000" min="1000" onchange="updateChart()"><br><br>
           <label for="simS">Speed of simulation (billion bead-step/day)</label>
-          <input id="simS" type="number" value="1000" step="1000" min="1000" onchange="updateChart()"><br><br>
+          <input id="simS" type="number" value="1000" step="1000" min="50" onchange="updateChart()"><br><br>
           <label for="atomD">Atom density (/Nanometre^3)</label>
           <input id="atomD" type="range" value="3" min="3" max="20" onchange="updateChart()">
           <span id="atomDval"></span><br><br>
           <button id="submit" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2">
-            <a class="u-button-style u-nav-link u-text-custom-color-2" href="#animation">SUBMIT</a></button>
+            <a class="u-button-style u-nav-link u-text-custom-color-2" href="#animation">
+              SUBMIT
+            </a>
+          </button>
         </div>
-        <div class="col">
+        <div class="col-9">
           <canvas id="myChart"></canvas>
         </div>
       </div>
-      <h1>This simulation costs</h1>
-      <div class="animation"style="display:flex; ">
+      <h1 id="#animation">This simulation costs</h1>
+      <div class="animation" style="display:flex; width: 80%;">
 
-        <div class="trees">
+        <div class="trees" style="width: 30%;">
           <div id="tree" ></div>
           <div class="title1"> Biological energy produced by</div>
           <div class="area">200</div>
           <div class="discription1">km <sup>2</sup> Forests</div>
         </div>
-        <div class="people">
+        <div class="people" style="width: 30%;">
           <div id="life" ></div>
           <div class="title2"> Happy spare time for</div>
           <div class="time">20</div>
           <div class="discription2">Days</div>
         </div>
-        <div class="house">
+        <div class="house" style="width: 30%;">
           <div id="household"></div>
 
           <div class="title3"> An European Family electricity </div>
@@ -155,19 +158,25 @@
             <div class="u-container-style u-layout-cell u-size-20 u-white u-layout-cell-1">
               <div class="u-border-2 u-border-custom-color-2 u-container-layout u-valign-top u-container-layout-1">
                 <h4 class="u-align-center u-text u-text-custom-color-5 u-text-1">Smaller Box Size</h4>
-                <button onclick="box()" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-3">CLICK TO KNOW MORE</button>
+                <button onclick="box()" style="padding-top: 5%;" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-3">
+                  CLICK TO KNOW MORE
+                </button>
               </div>
             </div>
             <div class="u-align-center u-container-style u-layout-cell u-size-20 u-white u-layout-cell-2">
               <div class="u-border-2 u-border-custom-color-2 u-container-layout u-valign-top u-container-layout-2">
                 <h4 class="u-text u-text-custom-color-5 u-text-2">Less number of simulations</h4>
-                <button onclick="less()" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-2"> CLICK TO KNOW MORE</button>
+                <button onclick="less()" style="padding-top: 5%;" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-2"> 
+                  CLICK TO KNOW MORE
+                </button>
               </div>
             </div>
             <div class="u-align-center u-container-style u-layout-cell u-size-20 u-white u-layout-cell-3">
               <div class="u-border-2 u-border-custom-color-2 u-container-layout u-valign-top u-container-layout-3">
                 <h4 class="u-text u-text-custom-color-5 u-text-3">Lower temperature</h4>
-                <button onclick="temperature()" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-3">CLICK TO KNOW MORE</button>
+                <button onclick="temperature()" style="padding-top: 5%;" class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-color-1 u-hover-white u-radius-50 u-text-custom-color-2 u-btn-3">
+                  CLICK TO KNOW MORE
+                </button>
               </div>
             </div>
           </div>
@@ -180,7 +189,7 @@
       <div class="u-container-style u-group u-group-1">
         <div class="u-container-layout u-container-layout-1">
           <h2 class="u-text u-text-default u-text-1">Contact</h2>
-          <p class="u-text u-text-2">Are you interested in this topic and want to understand more deeply the impact of the different parameters ? Professor Julian Shillcock will be happy to answer your questions !</p>
+          <p class="u-text u-text-2">Are you interested in this topic and want to understand more deeply the impact of the different parameters? Professor Julian Shillcock will be happy to answer your questions!</p>
           <a href="mailto: julian.shillcock@epfl.ch" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"> julian.shillcock@epfl.ch</a>
         </div>
       </div>
