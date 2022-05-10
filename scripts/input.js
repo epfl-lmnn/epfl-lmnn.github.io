@@ -62,6 +62,7 @@ function updateChart() {
 var treeArea = 0
 var lifeTime = 0;
 var consume = 0;
+var costnew=0;
 document.querySelector(".area").innerText = treeArea;
 document.querySelector(".time").innerText = lifeTime;
 document.querySelector(".electri").innerText = consume;
@@ -86,13 +87,18 @@ const BTN = document.getElementById('submit');
 
 BTN.addEventListener('click', () => {
 
-        treeArea = (updateChart() *0.025 * 24) / 2000;
-        lifeTime = treeArea *2000/ 24;
-        consume =treeArea/100;
+        treeArea =(updateChart() *0.025 * 24) / 2000;
+        treeArea=treeArea.toFixed(0);
+        lifeTime = treeArea *2000/ 0.025/24/24;
+        lifeTime=lifeTime.toFixed(0);
+        consume =treeArea*2000/7000;
+        consume=consume.toFixed(0);
+        costnew=treeArea*2000/0.025/24;
+
         document.querySelector(".area").innerText = treeArea;
         document.querySelector(".time").innerText = lifeTime;
         document.querySelector(".electri").innerText = consume;
-        if (treeArea < threshold) {
+        if (costnew < threshold) {
 
             img2.src = "scripts/fulltree.gif";
             treeAni.appendChild(img2);
