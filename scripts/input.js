@@ -85,7 +85,7 @@ const threshold=5;
 const BTN = document.getElementById('submit');
 
 BTN.addEventListener('click', () => {
-        
+
         treeArea = (updateChart() *0.025 * 24) / 2000;
         lifeTime = treeArea *2000/ 24;
         consume =treeArea/100;
