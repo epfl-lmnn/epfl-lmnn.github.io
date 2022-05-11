@@ -940,22 +940,33 @@
   }
 .animation{
   position: relative;
-  top: 0px;
-  height:400px;
+
+  height:350px;
+  left: 70px;
 
 }
 
 h1{
-
-  color: black;
+  background:lightskyblue;
+  border-radius: 10px;
+  color: white;
   /*font-family: 'Open Sans', sans-serif;*/
   white-space: normal;
-  font-size: xx-large;
+  font-size: x-large;
   position: relative;
-
-  left: 50px;
+  top: -40px;
+  left: 20px;
 }
+p1{
 
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family:"Arial", Times, serif;
+  font-size: x-large;
+  position: relative;
+  color: lightskyblue;
+  top: -40px;
+  left: 20px;
+}
 .tree{
   position: relative;
 
@@ -976,7 +987,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: black;
   position: relative;
-  left: 0px;
+  left: 10px;
   bottom: 380px;
 
 }
@@ -985,7 +996,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: black;
   position: relative;
-  left: 80px;
+  left: 120px;
   bottom: 260px;
 
 }
@@ -994,7 +1005,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: black;
   position: relative;
-  left: 200px;
+  left: 150px;
   bottom: 220px;
 
 }
@@ -1003,7 +1014,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: black;
   position: relative;
-  left: 130px;
+  left: 100px;
   bottom: 220px;
 
 }
@@ -1022,7 +1033,7 @@ h1{
   /*font-family: 'Roboto Serif', serif;*/
   color:blue;
   position: relative;
-  left: 10px;
+  left: 30px;
   bottom: 270px;
 
 }
@@ -1058,13 +1069,13 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: deepskyblue;
   position: relative;
-  left: 300px;
+  left: 330px;
   bottom: 320px;
 
 }
 #tree{
   position: relative;
-  left: 60px;
+  left: 0px;
 
 }
 #life{
