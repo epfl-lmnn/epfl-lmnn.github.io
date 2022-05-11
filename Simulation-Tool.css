@@ -1013,7 +1013,7 @@ h1{
   /* font-family: 'Roboto Serif', serif;*/
   color: blue;
   position: relative;
-  left: -140px;
+  left: -90px;
   bottom: 400px;
 
 }
@@ -1022,7 +1022,7 @@ h1{
   /*font-family: 'Roboto Serif', serif;*/
   color:blue;
   position: relative;
-  left: 0px;
+  left: 10px;
   bottom: 270px;
 
 }
@@ -1049,7 +1049,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color:deepskyblue;
   position: relative;
-  left: 120px;
+  left: 160px;
   bottom: 320px;
 
 }
@@ -1058,7 +1058,7 @@ h1{
   /*font-family: 'Open Sans', sans-serif;*/
   color: deepskyblue;
   position: relative;
-  left: 350px;
+  left: 300px;
   bottom: 320px;
 
 }
