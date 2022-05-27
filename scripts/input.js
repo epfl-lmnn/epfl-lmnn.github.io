@@ -91,7 +91,7 @@ BTN.addEventListener('click', () => {
         treeArea=treeArea.toFixed(2);
         lifeTime = costnew/24;
         lifeTime=lifeTime.toFixed(0);
-        consume =costnew*1000*24*0.025/50000000000/7000*365;
+        consume =costnew*1000*24*0.025/50000000000/7000*365*24;
         consume=consume.toFixed(2);
 
 
