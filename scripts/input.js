@@ -86,14 +86,14 @@ const threshold=5;
 const BTN = document.getElementById('submit');
 
 BTN.addEventListener('click', () => {
-
-        treeArea =(updateChart() *0.025 * 24) / 2000;
-        treeArea=treeArea.toFixed(0);
-        lifeTime = treeArea *2000/ 0.025/24/24;
+        costnew = updateChart();
+        treeArea =costnew*1000*24*0.025/50000000000/2000*1000;
+        treeArea=treeArea.toFixed(2);
+        lifeTime = costnew/24;
         lifeTime=lifeTime.toFixed(0);
-        consume =treeArea*2000/7000;
-        consume=consume.toFixed(0);
-        costnew=treeArea*2000/0.025/24;
+        consume =costnew*1000*24*0.025/50000000000/7000*365;
+        consume=consume.toFixed(2);
+
 
         document.querySelector(".area").innerText = treeArea;
         document.querySelector(".time").innerText = lifeTime;
